@@ -7,7 +7,7 @@ function pairNumbers(min, max) {
     max = Number(max);
 
     ///// POUR ETABLIR LE POINT DE DEPART DE NOTRE LISTE DE RESULTAT //////
-    // - min / 2 divise min par 2. (ex: si min = 1, 1 / 2 = 0.5)
+    // - min / 2 divise min par 2. (ex: si min = 1 / 1/2 = 0.5)
     // - Math.floor(min / 2) renvoie la partie entière de cette division au niveau inférieur (ex: Math.floor(1 / 2) = 0)
     // - Math.floor(min / 2) * 2 : on multiplie par 2 le résultat de Math.floor(min / 2) donc La condition devient  0 !== 1, ce qui est vrai. Cela signifie que min est impair, donc on l'incrémente de 1 pour obtenir le prochain nombre pair 
     if (Math.floor(min / 2) * 2 !== min) {

@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 display.value = result;
             }
         } catch (error) {
-            // Si une erreur imprévue survient (ex : si l'utilisateur sélectionne plusieurs opérateurs d'affilé ), affiche "Erreur"
+            // Si une erreur imprévue survient (ex : si l'utilisateur sélectionne plusieurs opérateurs d'affilé par exemple), affiche "Erreur"
             display.value = 'Erreur';
         }
     });

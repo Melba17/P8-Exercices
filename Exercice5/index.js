@@ -1,3 +1,4 @@
+// Ecouteur d'évènement pour que le code à l'intérieur de la fonction ne soit exécuté qu'une fois que le document HTML entier aura été complètement chargé 
 document.addEventListener('DOMContentLoaded', function() {
     // Ajout de labels pour les champs de formulaire
     const nameInput = document.getElementById('name');

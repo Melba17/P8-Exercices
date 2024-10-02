@@ -37,8 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Une fois la boucle terminée (lorsque le quotient est 0), on affiche le résultat binaire
-        // Si l'utilisateur entre "0" comme valeur, le résultat binaire sera également "0" car la chaîne `binary`
-        // reste vide dans ce cas. On utilise `binary || '0'` pour afficher "0" dans cette situation
+        // Si l'utilisateur entre "0" comme valeur, le résultat binaire sera également "0" car la chaîne `binary`reste vide dans ce cas. On utilise `binary || '0'` pour afficher "0" dans cette situation
         binaryResult.textContent = `Le binaire de ${decimalValue} est : ${binary || '0'}`;
     }
     // Ajout de l'événement click au bouton Convertir pour appeler la fonction convertToBinary
